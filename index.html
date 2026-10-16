@@ -24,7 +24,7 @@
 </head>
 <body>
   <h1>Datenschutzerklärung – Notizblock AW</h1>
-  <p class="stand">Stand: 9. Juni 2026</p>
+  <p class="stand">Stand: 16. Oktober 2026</p>
 
   <p>
     Notizblock AW ist eine App zum Erstellen einfacher Textnotizen für Android,
@@ -58,6 +58,17 @@
       <code>drive.file</code> — sie kann nur auf die Dateien zugreifen, die sie
       selbst erstellt hat, nicht auf deinen übrigen Drive-Inhalt.
     </li>
+    <li>
+      <strong>Kamerabild (nur Android, nur beim Scannen):</strong> In einer
+      Autopool-Notiz kannst du Serien- und Inventarnummern per Kamera aus
+      Barcodes einlesen. Das Kamerabild wird dafür
+      <strong>ausschließlich auf deinem Gerät</strong> ausgewertet und weder
+      gespeichert noch übertragen; nur die erkannten Nummern landen in deiner
+      Notiz. Die Erkennung übernimmt Google ML Kit. Laut Google sendet ML Kit
+      dabei technische Diagnosedaten (z.&nbsp;B. Geräte- und App-Informationen,
+      Leistungswerte) verschlüsselt an Google – keine Notizinhalte. Details:
+      <a href="https://developers.google.com/ml-kit/android-data-disclosure">Datenoffenlegung von ML Kit</a>.
+    </li>
   </ul>
 
   <h2>Wo die Daten liegen</h2>
@@ -71,8 +82,8 @@
   <h2>Weitergabe an Dritte</h2>
   <p>
     Es findet <strong>keine Weitergabe</strong> deiner Daten an Dritte statt.
-    Es werden keine Daten verkauft. Die Nutzung von Google Sign-In und Google
-    Drive unterliegt zusätzlich der
+    Es werden keine Daten verkauft. Die Nutzung von Google Sign-In, Google
+    Drive und Google ML Kit (Barcode-Scan) unterliegt zusätzlich der
     <a href="https://policies.google.com/privacy">Datenschutzerklärung von Google</a>.
   </p>
 
@@ -80,6 +91,11 @@
   <ul>
     <li><strong>Internet/Netzwerkzugriff:</strong> für die Synchronisierung mit Google Drive.</li>
     <li><strong>Google-Konto:</strong> nur bei aktiviertem Login für das Backup.</li>
+    <li>
+      <strong>Kamera (nur Android):</strong> nur zum Scannen von Barcodes in
+      Autopool-Notizen. Die Berechtigung wird erst beim ersten Scan abgefragt
+      und lässt sich jederzeit in den Android-Einstellungen wieder entziehen.
+    </li>
   </ul>
 
   <h2>Speicherdauer und Löschung</h2>
